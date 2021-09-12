@@ -21,7 +21,7 @@ const App = ({ logWithLs, getSocket, user, valid }) => {
    const [socket, setSocket] = useState(null)
 
    useEffect(() => {
-      setSocket(io("http://localhost:4000/"))
+      setSocket(io("https://nutrimed.herokuapp.com/"))
       if (localStorage.getItem("token")) {
          logWithLs(localStorage.getItem("token"))
       }
