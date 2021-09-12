@@ -74,7 +74,11 @@ const Reviews = ({
       });
     }
   };
-
+  const addReviewEnterHandler = (e)=>{
+    if (e.key === "Enter") {
+      addReviewHandler()
+   }
+  }  
   const everyReview = newReviews.map((obj) => (
     <EveryReview
       key={obj._id}
@@ -96,6 +100,8 @@ const Reviews = ({
           </span>
         </div>
         <input
+        maxLength='140'
+        onKeyPress={addReviewEnterHandler}
           placeholder={
             !userToken
               ? "Creá tu cuenta para dejar feedback al profesional."

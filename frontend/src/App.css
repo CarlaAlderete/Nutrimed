@@ -111,7 +111,7 @@ button a {
 }
 
 footer {
-  width: 100%;
+ /*  width: 100%; */
   background-color: #1bb6d1;
   padding: 2em;
   display: flex;
@@ -268,6 +268,7 @@ h4 {
 .footerNavbar li p {
   color: white;
   padding: 15px;
+  text-align: center;
 }
 
 .profile {
@@ -525,7 +526,8 @@ h4 {
 .commentBox {
   display: flex;
   flex-direction: column;
-  max-width: 80%;
+  max-width: 70%;
+  font-size: smaller;
 }
 
 .iconperfil {
@@ -941,269 +943,62 @@ text-align: center;
 .score p{
   padding-left:1vw;
 }
-
-@media (max-width: 576px) {
-  .forError {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    border-radius: 50px;
-    border: 2px gray solid;
-    margin: 10px;
-    width: 85%;
-    align-self: center;
-    outline: none;
-    background-color: white;
-  }
-
-  .forError input {
-    border: none;
-    width: 85%;
-    outline: none;
-    background-color: transparent;
-  }
-
-  #optionObraSocial {
-    border: none;
-    width: 85%;
-    outline: none;
-    color: gray;
-    appearance: none;
-    background-color: transparent;
-  }
-  .hero {
-    height: 60vh;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    padding: 20vw;
-  }
-  .insideHero {
-    padding: 0px 20px;
-  }
-  header p {
-    padding: 0px 10px;
-  }
-  .description div {
-    line-height: 2;
-  }
-  header {
-    width: 100%;
-    padding: 0vw 20px;
-    display: flex;
-    justify-content: center;
-  }
-  .grayContainer {
-    padding: 10%;
-  }
-  .leftProfile {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #f0f3f5;
-    width: 80%;
-    align-items: center;
-    padding: 22px;
-    min-height: 1vh;
-  }
-  .docDescription {
-    width: 100%;
-    padding: 0px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .leftProfile p {
-    padding: 0px 10px;
-  }
-  .rightProfile {
-    display: flex;
-    flex-direction: column;
-    background-color: #f0f3f5;
-    width: 80%;
-    padding: 22px;
-    align-items: center;
-  }
- 
-  .centroProfile {
-    width: 500px;
-    text-align: center;
-  }
- 
-  .centroProfile img {
-    width: 90%;
-    padding-top:40px
-  }
-
-  .tituloProfile {
-    padding-top: 10px;
-  }
-  .containerDay {
-    display: flex;
-    width: 100%;
-    justify-content: flex-start;
-  }
+.registroNotas {
+  display: flex;
 }
 
-@media (max-width: 992px) {
-  .forError {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    border-radius: 50px;
-    border: 2px gray solid;
-    margin: 10px;
-    width: 85%;
-    align-self: center;
-    outline: none;
-    background-color: white;
-  }
-  .forError input {
-    border: none;
-    width: 85%;
-    outline: none;
-    background-color: transparent;
-  }
-  #optionObraSocial {
-    border: none;
-    width: 85%;
-    outline: none;
-    color: gray;
-    appearance: none;
-    background-color: transparent;
-  }
-  .hero {
-    height: 60vh;
-    background-position: center;
-    background-size: cover;
-    text-align: center;
-    padding: 20vw;
-  }
-  header {
-    width: 100%;
-    padding: 0vw 10px;
-    display: flex;
-    justify-content: center;
-  }
-  header p {
-    padding: 0px 10px;
-  }
-  .description div {
-    line-height: 2;
-  }
-  .grayContainer {
-    padding: 10%;
-  }
-  .docDescription {
-    width: 70%;
-    padding: 20px 0px 20px 0px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .leftProfile {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #f0f3f5;
-    width: 80%;
-    align-items: center;
-    padding: 22px;
-    min-height: 1vh;
-  }
-  .leftProfile p {
-    padding: 0px 10px;
-  }
-  .centroProfile {
-    min-width: 80%;
-    text-align: center
-  }
-  
-  .centroProfile img {
-    width: 90%;
-    padding-top:40px
-  }
-
-  .rightProfile {
-    display: flex;
-    flex-direction: column;
-    background-color: #f0f3f5;
-    width: 80%;
-    padding: 22px;
-    align-items: center;
-  }
-
-  .tituloProfile {
-    padding-top: 10px;
-  }
-  .iconCardsContainer {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 20px 100px;
-  }
-  .containerDay {
-    display: flex;
-    width: 100%;
-    justify-content: flex-start;
-  }
+.logoUser {
+  background-position: center;
+  width: 2.4em;
+  height: 2.4em;
+  background-size: cover;
+  border-radius: 100%;
+  margin-left: 1rem;
 }
 
-@media (max-width: 1200px) {
-  .forError {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px;
-    border-radius: 50px;
-    border: 2px gray solid;
-    margin: 10px;
-    width: 60%;
-    align-self: center;
-    outline: none;
-    background-color: white;
-  }
+.sinCompletar {
+  color: red;
+}
 
-  .forError input {
-    border: none;
-    width: 60%;
-    outline: none;
-    background-color: transparent;
-  }
+.datosBold {
+  font-weight: bold;
+}
 
-  #optionObraSocial {
-    border: none;
-    width: 60%;
-    outline: none;
-    color: gray;
-    appearance: none;
-    background-color: transparent;
-  }
-  header {
-    width: 100%;
-    padding: 0vw 30px;
-    display: flex;
-    justify-content: space-between;
-  }
-  .grayContainer {
-    padding: 15%;
-  }
-  .centroProfile {
-    width: 450px;
-    text-align: center;
-  }
- 
-  .centroProfile img {
-    width: 90%;
-    padding-top:40px
-  }
+.borrarTurno {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 0px;
+}
 
-  .leftProfile p {
-    padding: 10px;
-  }
+.confirmDelete {
+  font-weight: bold;
+  color: rgb(105, 190, 230);
+  font-size: 18px;
+  padding-right: 10px;
+}
+.score {
+  display: flex;
+  align-items: center;
+}
+.score p {
+  padding-left: 1vw;
+}
+.isWriting {
+  height: 1.5vh;
+  padding-left: 5vw;
+}
+.red{
+  color: red;
+  font-size: small;
+}
+.cross2, .cross3{
+  width: 20px;
+  height: 20px;
+}
+.notError{
+  background-color: transparent !important;
+  color: transparent !important;
 }
 
 @media (max-width: 1416px) {
@@ -1282,63 +1077,339 @@ text-align: center;
     flex-direction: column;
     justify-content: space-between;
   }
-
 }
 
-.registroNotas {
-  display: flex;
+@media (max-width: 1200px) {
+  .forError {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px gray solid;
+    margin: 10px;
+    width: 60%;
+    align-self: center;
+    outline: none;
+    background-color: white;
+  }
+
+  .forError input {
+    border: none;
+    width: 60%;
+    outline: none;
+    background-color: transparent;
+  }
+
+  #optionObraSocial {
+    border: none;
+    width: 60%;
+    outline: none;
+    color: gray;
+    appearance: none;
+    background-color: transparent;
+  }
+  header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .grayContainer {
+    padding: 15%;
+  }
+  .centroProfile {
+    width: 350px;
+    text-align: center;
+  }
+ 
+  .centroProfile img {
+    width: 90%;
+    padding-top:40px
+  }
+
+  .leftProfile p {
+    padding: 10px;
+  }
+  .docDescription {
+    width: 50%;
+    padding: 20px 0px 20px 50px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 
-.logoUser {
-  background-position: center;
-  width: 2.4em;
-  height: 2.4em;
-  background-size: cover;
-  border-radius: 100%;
-  margin-left: 1rem;
+@media (max-width: 992px) {
+  .forError {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px gray solid;
+    margin: 10px;
+    width: 85%;
+    align-self: center;
+    outline: none;
+    background-color: white;
+  }
+  .forError input {
+    border: none;
+    width: 85%;
+    outline: none;
+    background-color: transparent;
+  }
+  #optionObraSocial {
+    border: none;
+    width: 85%;
+    outline: none;
+    color: gray;
+    appearance: none;
+    background-color: transparent;
+  }
+  .hero {
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 20vw;
+  }
+  header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  header p {
+    padding: 0px 10px;
+  }
+  .description div {
+    line-height: 2;
+  }
+  .grayContainer {
+    padding: 10%;
+  }
+  .docDescription {
+    width: 80%;
+    padding: 20px 0px 20px 0px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .leftProfile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f0f3f5;
+    width: 80%;
+    align-items: center;
+    padding: 22px;
+    min-height: 1vh;
+  }
+  .leftProfile p {
+    padding: 0px 10px;
+  }
+  .centroProfile {
+    min-width: 80%;
+    text-align: center
+  }
+  
+  .centroProfile img {
+    width: 80%;
+    padding-top:40px
+  }
+
+  .rightProfile {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f3f5;
+    width: 80%;
+    padding: 22px;
+    align-items: center;
+  }
+
+  .tituloProfile {
+    padding-top: 10px;
+  }
+  .iconCardsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px 100px;
+  }
+  .containerDay {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+  }
 }
 
-.sinCompletar {
-  color: red;
+@media (max-width: 576px) {
+  .forError {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px gray solid;
+    margin: 10px;
+    width: 85%;
+    align-self: center;
+    outline: none;
+    background-color: white;
+  }
+
+  .forError input {
+    border: none;
+    width: 85%;
+    outline: none;
+    background-color: transparent;
+  }
+
+  #optionObraSocial {
+    border: none;
+    width: 85%;
+    outline: none;
+    color: gray;
+    appearance: none;
+    background-color: transparent;
+  }
+  .hero {
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 20vw;
+  }
+  .insideHero {
+    padding: 0px 20px;
+  }
+  header p {
+    padding: 0px 8px;
+  }
+  .description div {
+    line-height: 2;
+  }
+  header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .grayContainer {
+    padding: 10%;
+  }
+  .leftProfile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f0f3f5;
+    width: 80%;
+    align-items: center;
+    padding: 22px;
+    min-height: 1vh;
+  }
+  .leftProfile p {
+    padding: 0px 10px;
+  }
+  .rightProfile {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f3f5;
+    width: 80%;
+    padding: 22px;
+    align-items: center;
+  }
+ 
+  .centroProfile {
+    width: 80%;
+    text-align: center;
+  }
+ 
+  .centroProfile img {
+    width: 80%;
+    padding-top:40px
+  }
+
+  .tituloProfile {
+    padding-top: 10px;
+  }
+  .containerDay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .days {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: center;
+  }
+
+  #optionDoctor {
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px gray solid;
+    margin: 10px 10px 30px 10px;
+    width: 80%;
+    align-self: center;
+    outline: none;
+    color: gray;
+    appearance: none;
+  }
 }
 
-.datosBold {
-  font-weight: bold;
-}
-
-.borrarTurno {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 5px 0px;
-}
-
-.confirmDelete {
-  font-weight: bold;
-  color: rgb(105, 190, 230);
-  font-size: 18px;
-  padding-right: 10px;
-}
-.score {
-  display: flex;
-  align-items: center;
-}
-.score p {
-  padding-left: 1vw;
-}
-.isWriting {
-  height: 1.5vh;
-  padding-left: 5vw;
-}
-.red{
-  color: red;
-  font-size: small;
-}
-.cross2, .cross3{
-  width: 20px;
-  height: 20px;
-}
-.notError{
-  background-color: transparent !important;
-  color: transparent !important;
+@media (max-width: 450px) {
+  header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center !important; 
+  }
+  #optionDoctor {
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px gray solid;
+    margin: 10px 10px 30px 10px;
+    width: 85%;
+    align-self: center;
+    outline: none;
+    color: gray;
+    appearance: none;
+  }
+  .centroProfile {
+    width: 85%;
+    text-align: center;
+  }
+ 
+  .centroProfile img {
+    width: 85%;
+    padding-top:40px
+  }
+  .leftProfile p {
+    padding: 0px 10px;
+  }
+  .rightProfile {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f3f5;
+    width: 85%;
+    padding: 22px;
+    align-items: center;
+  }
+  .leftProfile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f0f3f5;
+    width: 85%;
+    align-items: center;
+    padding: 22px;
+    min-height: 1vh;
+  }
 }
