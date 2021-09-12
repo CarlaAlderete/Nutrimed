@@ -419,7 +419,7 @@ return(
           {valueIn === "pat" && <div>
             <div>
               <GoogleLogin
-                clientId="253529321992-379gqmcfo48ljen82l34v8fj58gvgk6v.apps.googleusercontent.com"
+                clientId="352346524724-u1rotfs1t79moesge6rtl9mbmjsrej4t.apps.googleusercontent.com"
                 buttonText="Registrarse con Google"
                 onSuccess={responseGoogle}
                 onFailure={responseGoogle}
