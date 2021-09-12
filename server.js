@@ -24,7 +24,7 @@ const server = app.listen(process.env.PORT || 4000, process.env.MYHOST || '0.0.0
 
 const io = socket(server, {
   cors: {
-    origin: "http://localhost:3000",
+    origin: "https://nutrimed.herokuapp.com/",
     credentials: true,
   },
 });
