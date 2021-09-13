@@ -64,7 +64,7 @@ const ProfileUser = ({
 
   const lunes = filterDays("Lunes");
   const martes = filterDays("Martes");
-  const miercoles = filterDays("Miércoles");
+  const miercoles = filterDays("Miercoles");
   const jueves = filterDays("Jueves");
   const viernes = filterDays("Viernes");
 
@@ -229,7 +229,7 @@ const ProfileUser = ({
           <div>
             {drawAccordion("Lunes", lunes)}
             {drawAccordion("Martes", martes)}
-            {drawAccordion("Miércoles", miercoles)}
+            {drawAccordion("Miercoles", miercoles)}
             {drawAccordion("Jueves", jueves)}
             {drawAccordion("Viernes", viernes)}
           </div>
