@@ -135,7 +135,7 @@ const appointmentControllers = {
                <h2 style="margin: 0 0 7px; color: #19b1bc">Importante:</h2>
                <p style="margin: 2px; font-size: 15px; color: #000;">
                      Sr/a. Paciente:Si desear reprogramar, por favor ingrese a: 
-                     <a href="">aca va el mail</a></p>
+                     <a href="https://nutrimed.herokuapp.com">https://nutrimed.herokuapp.com</a></p>
                <div style="width: 100%;margin:20px 0; display: inline-block;text-align: center; background-color: #19b1bc;">
                   <a style="text-decoration: none; color: white;" href=""><p style="color: #fff; font-size: 14px; text-align: center;">© Copyright 2021 | NutriMed.</p></a>	
                </div>
