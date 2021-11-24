@@ -110,7 +110,7 @@ const Appointment = ({
         <div className="grayContainer">
         <img src="/assets/appointment.png" alt="" />
         <h3>
-          ¡Bienvenido! Seleccioná el profesional para ver sus turnos disponibles.
+          ¡Bienvenido! Seleccioná el profesional para ver sus turnos disponibles
         </h3>
         <select id="optionDoctor" name="doctorId" defaultValue={appointmentReady.doctorId} disabled={views.ok} onClick={appointmentValueHandler}>
             <option value="" >Seleccioná un profesional</option>
